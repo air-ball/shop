@@ -1,0 +1,48 @@
+{extend name="public/base" /}
+{block name="title"}所有用户{/block}
+{block name="nav"}
+    <span class="action-span"><a href="{:url('add')}">新增用户</a></span>
+    <span class="action-span1"><a href="__GROUP__">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 所有用户 </span>
+    <div style="clear:both"></div>
+{/block}
+{block name="body"}
+<form method="post" action="" name="listForm">
+    <div class="list-div" id="listDiv">
+        <table  width="100%" cellspacing="1" cellpadding="2" id="list-table">
+            <tr>
+                <th>#</th>
+                <th>用户名</th>
+                <th>角色</th>
+                <th>操作</th>
+            </tr>
+            {volist name='admin_info' id='vo'}
+            {if condition="$vo.role_id > 1"}
+            <tr align="center" class="0">
+                <td align="left" class="first-cell" >
+                    {$vo.id}
+                </td>
+                <td align="left" class="first-cell">
+                    {$vo.username}
+                </td>
+                <td align="left" class="first-cell">
+                    {volist name="role_info" id="v"}
+                        {eq name="v.id" value="$vo.role_id"}
+                            {$v.role_name}
+                        {/eq}
+                    {/volist}
+                    </td>
+                <td width="30%" align="center">
+                <a href="{:url('edit','id='.$vo['id'])}">编辑</a> |
+                <a href="{:url('remove','id='.$vo['id'])}" title="移除" onclick="">移除</a>
+                </td>
+            </tr>
+            {/if}
+            {/volist}
+            
+        </table>
+    </div>
+</form>
+{/block}
+</body>
+</html>

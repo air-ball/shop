@@ -1,0 +1,68 @@
+{extend name="public/base" /}
+{block name="title"}编辑权限{/block}
+
+{block name="nav"}
+<h1>
+    <span class="action-span"><a href="{:url('index')}">权限列表</a></span>
+    <span class="action-span1"><a href="">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 编辑权限 </span>
+    <div style="clear:both"></div>
+</h1>
+{/block}
+{block name="body"}
+<div class="main-div">
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <tr>
+                <td class="label">权限名称:</td>
+                <td>
+                    <input type='text' name='rule_name' maxlength="20" value="{$rule_info.rule_name}" size='27' /><font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">控制器名:</td>
+                <td>
+                    <input type='text' name='controller_name' maxlength="20" value="{$rule_info.controller_name}" size='27' /><font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">方法名:</td>
+                <td>
+                    <input type='text' name='action_name' maxlength="20" value="{$rule_info.action_name}" size='27' /><font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">上级权限:</td>
+                <td>
+                    <select name="parent_id">
+                        <option label="顶级分类" value="0"></option>
+                        {volist name="rules" id="vo"}
+                        <option value="{$vo.id}" {eq name="$rule_info.parent_id" value="$vo.id"} selected ="selected"{/eq} 
+                            {in name ="$vo.id" value= ""} disabled{/in}
+                            {eq name="vo.parent_id" value="$rule_info.id"} disabled{/eq}
+                            {eq name="vo.id" value="$rule_info.id"}disabled{/eq}
+                            > 
+                            {$vo.lev|str_repeat='&nbsp;&nbsp;--',###}{$vo.rule_name}
+                        </option>
+                        {/volist}
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="label">是否显示:</td>
+                <td>
+                    <input type="radio" name="is_show" value="1" {eq name="$rule_info.is_show" value="1"}checked="checked"{/eq} /> 是
+                    <input type="radio" name="is_show" value="0"  {eq name="$rule_info.is_show" value="0"}checked="checked"{/eq} /> 否
+                </td>
+            </tr>
+
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</div>
+{/block}

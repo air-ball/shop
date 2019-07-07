@@ -1,0 +1,61 @@
+{extend name="public/base" /}
+{block name="title"}编辑分类{/block}
+
+{block name="nav"}
+<h1>
+    <span class="action-span"><a href="{:url('goods/index')}">商品分类</a></span>
+    <span class="action-span1"><a href="">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 编辑分类 </span>
+    <div style="clear:both"></div>
+</h1>
+{/block}
+{block name="body"}
+<div class="main-div">
+    <form action="" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <tr>
+                <td class="label">分类名称:</td>
+                <td>
+                    <input type='text' name='cate_name' maxlength="20" value="{$info.cate_name}" size='27' /><font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">上级分类:</td>
+                <td>
+                    <select name="parent_id">
+                        <option label="顶级分类" value="0"></option>
+                        <!-- {eq name ="$info.parent_id" value="0"}<option label="已是顶级分类了" value="0"></option>{/eq} -->
+                        {volist name="$category" id="vo"}
+                        <option value="{$vo.id}" {eq name="$info.parent_id" value="$vo.id"} selected ="selected"{/eq} 
+                            {eq name ="$info.id" value = "$vo.id"} disabled{/eq} 
+                            {in name ="$vo.id" value= "$me_and_son"} disabled{/in}  > 
+                            <!-- 
+                                上面部分 
+                                    1、如果选中的  id  等于 下拉选项中的 id  则设置为禁选状态   不能将自身设为自身的父元素
+                                    2、如果选中的等级 $info.lev  小于或者等于选项中的分层等级lev  则不能将该选项选为父级
+                            -->
+
+                            {$vo.lev|str_repeat='&nbsp;&nbsp;&nbsp;',###}---{$vo.cate_name}
+                        </option>
+                        {/volist}
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="label">是否推荐:</td>
+                <td>
+                    <input type="radio" name="isrec" value="1"  checked="true"/> 是 
+                    <input type="radio" name="isrec" value="0"  /> 否
+                </td>
+            </tr>
+
+        </table>
+        <div class="button-div">
+            <input type="submit" value=" 确定 " />
+            <input type="reset" value=" 重置 " />
+        </div>
+    </form>
+</div>
+{/block}

@@ -1,0 +1,65 @@
+{extend name="public/base" /}
+
+{block name="title"}添加属性{/block}
+
+{block name="nav"}
+    <span class="action-span"><a href="index.html">属性列表</a>
+    </span>
+    <span class="action-span1"><a href="">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加属性 </span>
+    <div style="clear:both"></div>
+{/block}
+
+{block name="body"}
+<div class="tab-div">
+    <div id="tabbody-div">
+        <form enctype="multipart/form-data" action="" method="post">
+            {:token()}
+            <table width="90%" align="center" class="table">
+                <tr>
+                    <td class="label">属性名称：</td>
+                    <td><input type="text" name="attr_name" value="" size="30" />
+                    <span class="require-field">*</span></td>
+                </tr>
+                <tr>
+                    <td class="label">所属类型：</td>
+                    <td>
+                        <select name="type_id">
+                            <option value="0">请选择...</option>
+                            {volist name="$type" id="vo"}
+                            <option value="{$vo.id}}" label="{$vo.type_name}"></option>
+                            {/volist}
+                        </select>
+                        <span class="require-field">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">属性类型：</td>
+                    <td>
+                        <input type="radio" name="attr_type" value="1" checked="checked" /> 唯一属性
+                        <input type="radio" name="attr_type" value="2"/> 单选属性
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">属性录入方式：</td>
+                    <td>
+                        <input type="radio" name="attr_input_type" value="1" checked="checked" /> input输入
+                        <input type="radio" name="attr_input_type" value="2"/> select选择
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">默认值:</td>
+                    <td>
+                        <textarea name="attr_values" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="button-div">
+                <input type="submit" value=" 确定 " class="button"/>
+                <input type="reset" value=" 重置 " class="button" />
+            </div>
+        </form>
+    </div>
+</div>
+{/block}
+

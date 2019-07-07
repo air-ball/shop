@@ -1,0 +1,136 @@
+{extend name="public/base" /}
+{block name="title"} 商品回收站 {/block}
+{block name="style"}
+<style>
+  *{
+    text-decoration: none;
+
+  }
+    #pag li{
+        list-style: none;
+        float:left;
+        margin: 10px;
+        padding: 0 8px;
+        font-size: 15px;
+        border: 1px solid skyblue;
+
+    }
+    #pag li:hover{
+        background:skyblue;
+        color:white;
+    }
+</style>
+{/block}
+{block name="nav"}
+    <span class="action-span"><a href="index.html">商品首页</a></span>
+    <span class="action-span1"><a href="">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 商品列表 </span>
+    <div style="clear:both"></div>
+{/block}
+
+{block name="body"}
+    <div class="form-div">
+    <form action="" name="searchForm">
+        <img src="__ADMIN__Images/icon_search.gif" width="26" height="22" border="0" alt="search" />
+        <!-- 分类 -->
+        <select name="cate_id">
+            <option value="0">所有分类</option>
+            {volist name="category" id="vo"}
+            <option value="{$vo.id}" {eq name="$Think.get.cate_id" value="$vo.id"}selected='selected'{/eq}>{$vo.lev|str_repeat = '&nbsp;&nbsp;&nbsp;--',###}{$vo.cate_name}</option>
+            {/volist}
+        </select>
+
+        <!-- 推荐 -->
+        <select name="intro_type">
+            <option value="0">全部</option>
+            <option value="is_rec">推荐</option>
+            <option value="is_new">新品</option>
+            <option value="is_hot">热销</option>
+        </select>
+        <!-- 上架 -->
+        <select name="is_sale">
+            <option value='0'>全部</option>
+            <option value="1">上架</option>
+            <option value="2">下架</option>
+        </select>
+        <!-- 关键字 -->
+        关键字 <input type="text" name="keyword" size="15" />
+        <input type="submit" value=" 搜索 " class="button" />
+    </form>
+    </div>
+
+<!-- 商品列表 -->
+
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th>编号</th>
+                <th>商品名称</th>
+                <th>货号</th>
+                <th>价格</th>
+                <th>推荐</th>
+                <th>新品</th>
+                <th>热销</th>
+                <th>操作</th>
+            </tr>
+
+            {volist name="data" id="vo"}
+            <tr>
+                <td align="center">{$vo.id}</td>
+                <td align="center">{$vo.goods_name}</td>
+                <td align="center">{$vo.goods_sn}</td>
+                <td align="center">{$vo.shop_price}</td>
+                <td align="center"><img style="cursor: pointer;" onclick="changeStatus({$vo.id},'is_rec',this)" src="__ADMIN__Images/{eq name='vo.is_rec' value='1'}yes{else}no{/eq}.gif "/></td>
+                <td align="center"><img style="cursor: pointer;" onclick="changeStatus({$vo.id},'is_new',this)" src="__ADMIN__Images/{eq name='vo.is_new' value='1'}yes{else}no{/eq}.gif "/></td>
+                <td align="center"><img style="cursor: pointer;" onclick="changeStatus({$vo.id},'is_hot',this)" src="__ADMIN__Images/{eq name='vo.is_hot' value='1'}yes{else}no{/eq}.gif "/></td>
+                <td align="center">
+                <a href="{:url('rollback','id='.$vo['id'])}" title="还原">还原</a>
+                <a href="{:url('del','id='.$vo['id'])}" onclick="" title="彻底删除">彻底删除</a></td>
+            </tr>
+            {/volist}
+
+        </table>
+
+        <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true" id="pag">
+                    {$data->render()}
+                </td>
+            </tr>
+        </table>
+    <!-- 分页结束 -->
+    </div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript" src="__ADMIN__/JS/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript">
+    function changeStatus(goods_id,field,obj)
+    {
+        $.ajax({
+            url:'{:url("changeStatus")}',
+            type:'post',
+            data:{goods_id:goods_id,field:field},
+            dataType:'json',
+            success:function(response){
+                if(response.code == 0)
+                {
+                    alert(response.msg);
+                    return false;
+                }
+                if(response.status == 1)
+                {
+                    //显示yes 图片
+                    $(obj).attr('src','__ADMIN__/Images/yes.gif');
+                }
+                else{
+                    $(obj).attr('src','__ADMIN__/Images/no.gif');
+                }
+            }
+        })
+    }
+</script>
+{/block}
