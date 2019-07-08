@@ -1,0 +1,2590 @@
+---------------------------------------------------------------
+[ 2019-06-28T09:59:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cart/index.html
+[ info ] shop34.com/index/cart/index.html [运行时间：15.713500s][吞吐率：0.06req/s] [内存消耗：2,118.63kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cart/index.html
+[ info ] shop34.com/index/cart/index.html [运行时间：1.161311s][吞吐率：0.86req/s] [内存消耗：2,457.80kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Cart->index[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Cart.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\cart\index.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059847s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:1.016445s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cart/index.html
+[ info ] shop34.com/index/cart/index.html [运行时间：0.069309s][吞吐率：14.43req/s] [内存消耗：2,458.03kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=963c9rf2qketp6p2fjrr6k9rum',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Cart->index[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Cart.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\cart\index.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010661s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009201s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cart/index.html
+[ info ] shop34.com/index/cart/index.html [运行时间：0.132288s][吞吐率：7.56req/s] [内存消耗：2,457.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Cart->index[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Cart.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\cart\index.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002295s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.087547s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ info ] shop34.com/index/user/login.html [运行时间：0.065776s][吞吐率：15.20req/s] [内存消耗：2,223.71kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->login[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\user\login.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011816s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008089s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/captcha.html
+[ info ] shop34.com/index/user/captcha.html [运行时间：0.307932s][吞吐率：3.25req/s] [内存消耗：2,113.01kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/user/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->captcha[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010596s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009334s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/login.html
+[ info ] shop34.com/index/user/login.html [运行时间：0.345871s][吞吐率：2.89req/s] [内存消耗：2,475.48kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '171',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '天河吉山一条街，打听打听谁是爹',
+  'password' => 'admin',
+  'captcha' => '495',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->login[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'category',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013234s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.029893s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_user` [ RunTime:0.068421s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_user` WHERE  `username` = '天河吉山一条街，打听打听谁是爹' LIMIT 1 [ RunTime:0.013165s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] shop34.com/index/index/index.html [运行时间：0.211038s][吞吐率：4.74req/s] [内存消耗：2,528.09kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\index\index.html [ array (
+  0 => 'category',
+  1 => 'is_show',
+  2 => 'goods',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011339s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008470s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.134580s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_hot` = 1 LIMIT 5 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_rec` = 1 LIMIT 5 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `is_new` = 1 LIMIT 5 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cart/index.html
+[ info ] shop34.com/index/cart/index.html [运行时间：0.216324s][吞吐率：4.62req/s] [内存消耗：2,492.97kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Cart->index[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Cart.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\cart\index.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001876s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.007854s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.048689s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008900s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.087448s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.095373s][吞吐率：10.49req/s] [内存消耗：2,493.41kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010941s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008252s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008518s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.009862s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2019-06-28T09:59:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.090968s][吞吐率：10.99req/s] [内存消耗：2,421.09kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '45',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '',
+  'address' => '',
+  'phone' => '',
+  'delivery' => 'on',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010707s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008380s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008815s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008271s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:04:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.239677s][吞吐率：4.17req/s] [内存消耗：2,381.41kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://shop34.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '45',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '',
+  'address' => '',
+  'phone' => '',
+  'delivery' => 'on',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010838s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.153621s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001525s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:04:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.099991s][吞吐率：10.00req/s] [内存消耗：2,493.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010869s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010058s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008408s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.009379s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:04:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.090229s][吞吐率：11.08req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003624s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008131s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.009578s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010024s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:04:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.098895s][吞吐率：10.11req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011583s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009420s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008974s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.009934s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:05:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.366034s][吞吐率：2.73req/s] [内存消耗：2,381.54kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '112',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '2731983791823',
+  'delivery' => 'on',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011509s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.300180s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001379s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:05:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.094499s][吞吐率：10.58req/s] [内存消耗：2,493.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012054s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008054s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008632s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008633s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:05:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.066625s][吞吐率：15.01req/s] [内存消耗：2,381.54kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '112',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '2731983791823',
+  'delivery' => 'on',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010671s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009331s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.244868s][吞吐率：4.08req/s] [内存消耗：2,624.26kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011017s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009755s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.009116s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008491s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.110134s][吞吐率：9.08req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010680s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010545s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.010202s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008288s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.111437s][吞吐率：8.97req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011540s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009472s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008543s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008627s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.128614s][吞吐率：7.78req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011105s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008440s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.018526s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.008421s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.097326s][吞吐率：10.27req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011216s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008356s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.010041s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.009100s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.094256s][吞吐率：10.61req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010707s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009598s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.009132s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.009192s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.098656s][吞吐率：10.14req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011253s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009723s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.010425s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.009018s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.088088s][吞吐率：11.35req/s] [内存消耗：2,493.70kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002009s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008587s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008397s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011151s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.069407s][吞吐率：14.41req/s] [内存消耗：2,381.36kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '33',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '',
+  'address' => '',
+  'phone' => '',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009215s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009056s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:06:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：2,493.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010819s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008867s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.008861s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.009123s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:25:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.101132s][吞吐率：9.89req/s] [内存消耗：2,494.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008802s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010161s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.011035s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011125s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:25:36+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.175694s][吞吐率：5.69req/s] [内存消耗：2,400.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '123',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '阿萨大声道',
+  'address' => '暗色',
+  'phone' => '阿萨德',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011457s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.095498s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001302s ]
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file[D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\model\Order.php:3]
+---------------------------------------------------------------
+[ 2019-06-28T10:25:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.100612s][吞吐率：9.94req/s] [内存消耗：2,494.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011044s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011613s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.011342s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011441s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:25:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.099979s][吞吐率：10.00req/s] [内存消耗：2,494.49kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010695s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.008667s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.009443s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.012124s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000537s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:25:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.094112s][吞吐率：10.63req/s] [内存消耗：2,400.56kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '2731983791823',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011387s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.032691s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000435s ]
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file[D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\model\Order.php:3]
+---------------------------------------------------------------
+[ 2019-06-28T10:26:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.094042s][吞吐率：10.63req/s] [内存消耗：2,494.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001873s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010985s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.012921s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011054s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:26:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.069462s][吞吐率：14.40req/s] [内存消耗：2,397.55kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '2731983791823',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010481s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009449s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000444s ]
+[ error ] [0]类不存在:app\common\model\Order[D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\library\think\Loader.php:390]
+---------------------------------------------------------------
+[ 2019-06-28T10:26:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.099511s][吞吐率：10.05req/s] [内存消耗：2,494.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010349s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.012378s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.010035s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010457s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:26:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.066738s][吞吐率：14.98req/s] [内存消耗：2,382.27kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '2731983791823',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011117s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009418s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:26:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.102605s][吞吐率：9.75req/s] [内存消耗：2,494.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011203s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011276s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.011679s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011314s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:43:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.102171s][吞吐率：9.79req/s] [内存消耗：2,494.26kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010440s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.011699s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.010597s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011061s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:43:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.390224s][吞吐率：2.56req/s] [内存消耗：2,451.73kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '90',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '110',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011537s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.116331s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.061266s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.033771s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_order` [ RunTime:0.065167s ]
+[ error ] [0]数据表字段不存在:[user_sn][D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2019-06-28T10:44:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.101995s][吞吐率：9.80req/s] [内存消耗：2,494.05kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011287s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010505s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.009659s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.013223s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:44:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.115083s][吞吐率：8.69req/s] [内存消耗：2,451.74kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '90',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '110',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010804s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.009553s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.011783s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011266s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_order` [ RunTime:0.011432s ]
+[ error ] [0]数据表字段不存在:[goods_sn][D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\library\think\db\Builder.php:109]
+---------------------------------------------------------------
+[ 2019-06-28T10:44:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/pay/check.html
+[ info ] shop34.com/index/pay/check.html [运行时间：0.093293s][吞吐率：10.72req/s] [内存消耗：2,494.05kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/cart/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->check[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/index\view\pay\check.html [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'total',
+  3 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002098s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010941s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.011874s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.010786s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2019-06-28T10:44:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index/pay/pay.html
+[ info ] shop34.com/index/pay/pay.html [运行时间：0.453979s][吞吐率：2.20req/s] [内存消耗：2,403.80kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'pay',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D; PHPSESSID=2cr7tqovmtho2d0h3pjqs6knh3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/index/pay/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '90',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'people' => '黄大仙',
+  'address' => '中南海',
+  'phone' => '110',
+  'pay_way' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pay->pay[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Pay.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010891s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.010461s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.010003s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_cart` WHERE  `user_id` = 2 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.011304s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(84,81,79) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(82,81,79) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(85,86,87) [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(64,65,66) [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT a.attr_value,b.attr_name FROM shop_goods_attr a 
+                LEFT JOIN shop_attribute b on a.attr_id = b.id WHERE a.id IN(71,72,73) [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_order` [ RunTime:0.011455s ]
+[ sql ] [ SQL ] INSERT INTO `shop_order` (`people` , `address` , `phone` , `pay_way` , `user_id` , `order_sn` , `total`) VALUES ('黄大仙' , '中南海' , '110' , 1 , 2 , '20190628104431620951' , 39442) [ RunTime:0.200789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_order_detail` [ RunTime:0.085356s ]
+[ sql ] [ SQL ] INSERT INTO `shop_order_detail` (`order_id` , `goods_id` , `goods_count` , `goods_attr_ids`) SELECT '1',8,3,'84,81,79' UNION ALL SELECT '1',8,1,'82,81,79' UNION ALL SELECT '1',52,3,'85,86,87' UNION ALL SELECT '1',49,1,'64,65,66' UNION ALL SELECT '1',51,1,'71,72,73' [ RunTime:0.051208s ]
+---------------------------------------------------------------
+[ 2019-06-28T22:54:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/curl/test
+[ info ] shop34.com/index/curl/test [运行时间：4.255195s][吞吐率：0.24req/s] [内存消耗：1,368.98kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'curl',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-28T22:55:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/curl/test
+[ info ] shop34.com/admin/curl/test [运行时间：0.156833s][吞吐率：6.38req/s] [内存消耗：1,368.98kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'curl',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-28T22:56:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/curl/test
+[ info ] shop34.com/admin/curl/test [运行时间：0.049417s][吞吐率：20.24req/s] [内存消耗：1,370.00kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'curl',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; admin_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2221232f297a57a5a743894a0e4a801fc3%22%2C%22role_id%22%3A%221%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

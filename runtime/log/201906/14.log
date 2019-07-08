@@ -1,0 +1,212 @@
+---------------------------------------------------------------
+[ 2019-06-14T20:22:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] shop34.com/ [运行时间：0.752372s][吞吐率：1.33req/s] [内存消耗：1,343.75kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-14T20:23:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test/aa
+[ info ] shop34.com/admin/test/aa [运行时间：0.039090s][吞吐率：25.58req/s] [内存消耗：1,659.38kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'aa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/test/aa' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Test->aa[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Test.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\test\aa.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-14T20:23:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test/aa
+[ info ] shop34.com/admin/test/aa [运行时间：0.037992s][吞吐率：26.32req/s] [内存消耗：1,659.90kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'aa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/test/aa' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Test->aa[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Test.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\test\aa.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-14T20:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test/aa
+[ info ] shop34.com/admin/test/aa [运行时间：0.056493s][吞吐率：17.70req/s] [内存消耗：1,549.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'aa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/test/aa' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Test->aa[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Test.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\test\aa.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-14T20:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test/aa
+[ info ] shop34.com/admin/test/aa [运行时间：0.039111s][吞吐率：25.57req/s] [内存消耗：1,549.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'aa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/test/aa' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Test->aa[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Test.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\test\aa.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-14T20:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test/aa
+[ info ] shop34.com/admin/test/aa [运行时间：0.036042s][吞吐率：27.75req/s] [内存消耗：1,549.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'aa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/test/aa' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Test->aa[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Test.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\test\aa.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-14T20:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test/aa
+[ info ] shop34.com/admin/test/aa [运行时间：0.034308s][吞吐率：29.15req/s] [内存消耗：1,549.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'aa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/test/aa' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Test->aa[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Test.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\test\aa.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,615 @@
+---------------------------------------------------------------
+[ 2019-06-15T08:26:13+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] shop34.com/ [运行时间：0.501074s][吞吐率：2.00req/s] [内存消耗：1,343.99kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-15T08:26:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.625144s][吞吐率：1.60req/s] [内存消耗：2,274.11kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022460s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.356436s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000614s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:35:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.115709s][吞吐率：8.64req/s] [内存消耗：1,564.15kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]Class app\admin\controller\Request does not exist[D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\library\think\App.php:260]
+---------------------------------------------------------------
+[ 2019-06-15T08:35:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.113435s][吞吐率：8.82req/s] [内存消耗：2,274.44kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009579s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.027028s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:47:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.092315s][吞吐率：10.83req/s] [内存消耗：2,097.02kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010110s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.030681s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:48:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.112230s][吞吐率：8.91req/s] [内存消耗：2,276.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011550s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.025382s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:49:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.104591s][吞吐率：9.56req/s] [内存消耗：2,097.04kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002675s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.040048s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:49:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.107718s][吞吐率：9.28req/s] [内存消耗：2,276.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011356s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.024029s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:49:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.112474s][吞吐率：8.89req/s] [内存消耗：2,276.89kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011515s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.025247s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:49:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.071330s][吞吐率：14.02req/s] [内存消耗：2,097.05kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002041s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.024799s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:50:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.115285s][吞吐率：8.67req/s] [内存消耗：2,276.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003916s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.034589s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:50:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.068090s][吞吐率：14.69req/s] [内存消耗：2,097.04kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011461s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.015507s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:50:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.098223s][吞吐率：10.18req/s] [内存消耗：2,276.89kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012311s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.024196s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:50:22+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/add
+[ info ] shop34.com/admin/category/add [运行时间：0.368422s][吞吐率：2.71req/s] [内存消耗：2,175.23kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/admin/category/add',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryscpuakVMFUzk3pdq',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '245',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add' => '',
+  'cate_name' => 'ThinkPad',
+  'parent_id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011243s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.132195s ]
+[ sql ] [ SQL ] INSERT INTO `shop_category` (`cate_name` , `parent_id`) VALUES ('ThinkPad' , 3) [ RunTime:0.106671s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:50:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add.html
+[ info ] shop34.com/admin/category/add.html [运行时间：0.130379s][吞吐率：7.67req/s] [内存消耗：2,097.66kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/admin/category/add',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011825s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.076022s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:50:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/category/add.html
+[ info ] shop34.com/admin/category/add.html [运行时间：0.226562s][吞吐率：4.41req/s] [内存消耗：2,175.34kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/admin/category/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryM27lCNU9OAVtgEdi',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://shop34.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '247',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add_html' => '',
+  'cate_name' => '小米NOTE',
+  'parent_id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011466s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.098630s ]
+[ sql ] [ SQL ] INSERT INTO `shop_category` (`cate_name` , `parent_id`) VALUES ('小米NOTE' , 1) [ RunTime:0.063182s ]
+---------------------------------------------------------------
+[ 2019-06-15T08:50:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/add.html
+[ info ] shop34.com/admin/category/add.html [运行时间：0.213502s][吞吐率：4.68req/s] [内存消耗：2,098.08kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\php34\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5544160256; pgv_si=s5635245056; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop34.com/admin/category/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop34.com',
+)
+[ info ] [ PARAM ] array (
+  'admin/category/add_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ D:\phpStudy\PHPTutorial\WWW\php34\shop\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\php34\shop\public/../application/admin\view\category\add.html [ array (
+  0 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011409s ] mysql:host=127.0.0.1;port=3306;dbname=shop34;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.154577s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000552s ]
